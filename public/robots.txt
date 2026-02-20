@@ -1,0 +1,16 @@
+# Robots.txt for ImageConvertLab
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://imageconvertlab.com/sitemap.xml
+
+# Disallow admin or private areas (if any in future)
+# User-agent: *
+# Disallow: /api/
+# Disallow: /admin/
+
+# Crawl-delay (optional, helps prevent overload)
+# Crawl-delay: 1
