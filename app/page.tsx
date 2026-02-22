@@ -6,31 +6,51 @@ export default function Home() {
       name: 'JPG to PNG',
       href: '/jpg-to-png',
       icon: '🖼️',
-      description: 'Convert JPG images to PNG format with transparency support'
+      description: 'Convert JPG images to PNG format with transparency support',
+      gradient: 'from-blue-50 to-indigo-50',
+      hoverGradient: 'hover:from-blue-100 hover:to-indigo-100',
+      iconBg: 'bg-gradient-to-br from-blue-500 to-indigo-600',
+      borderColor: 'hover:border-blue-400'
     },
     {
       name: 'PNG to JPG',
       href: '/png-to-jpg',
       icon: '📸',
-      description: 'Convert PNG to JPG for smaller file sizes'
+      description: 'Convert PNG to JPG for smaller file sizes',
+      gradient: 'from-purple-50 to-pink-50',
+      hoverGradient: 'hover:from-purple-100 hover:to-pink-100',
+      iconBg: 'bg-gradient-to-br from-purple-500 to-pink-600',
+      borderColor: 'hover:border-purple-400'
     },
     {
       name: 'WebP to JPG',
       href: '/webp-to-jpg',
       icon: '🌐',
-      description: 'Convert modern WebP images to universal JPG format'
+      description: 'Convert modern WebP images to universal JPG format',
+      gradient: 'from-emerald-50 to-teal-50',
+      hoverGradient: 'hover:from-emerald-100 hover:to-teal-100',
+      iconBg: 'bg-gradient-to-br from-emerald-500 to-teal-600',
+      borderColor: 'hover:border-emerald-400'
     },
     {
       name: 'HEIC to JPG',
       href: '/heic-to-jpg',
       icon: '📱',
-      description: 'Convert iPhone HEIC photos to JPG for compatibility'
+      description: 'Convert iPhone HEIC photos to JPG for compatibility',
+      gradient: 'from-orange-50 to-amber-50',
+      hoverGradient: 'hover:from-orange-100 hover:to-amber-100',
+      iconBg: 'bg-gradient-to-br from-orange-500 to-amber-600',
+      borderColor: 'hover:border-orange-400'
     },
     {
       name: 'Compress Image',
       href: '/compress-image',
       icon: '⚡',
-      description: 'Reduce image file size while maintaining quality'
+      description: 'Reduce image file size while maintaining quality',
+      gradient: 'from-cyan-50 to-sky-50',
+      hoverGradient: 'hover:from-cyan-100 hover:to-sky-100',
+      iconBg: 'bg-gradient-to-br from-cyan-500 to-sky-600',
+      borderColor: 'hover:border-cyan-400'
     }
   ];
 
@@ -84,16 +104,18 @@ export default function Home() {
               <Link
                 key={tool.href}
                 href={tool.href}
-                className="group block p-6 bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-primary-500"
+                className={`group block p-6 bg-gradient-to-br ${tool.gradient} ${tool.hoverGradient} rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-transparent ${tool.borderColor} transform hover:-translate-y-1`}
               >
-                <div className="text-4xl mb-3">{tool.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors">
+                <div className={`w-14 h-14 ${tool.iconBg} rounded-xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                  <span className="text-3xl">{tool.icon}</span>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-gray-700 transition-colors">
                   {tool.name}
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-sm leading-relaxed">
                   {tool.description}
                 </p>
-                <div className="mt-4 flex items-center text-primary-600 font-medium">
+                <div className="mt-4 flex items-center text-gray-700 font-medium group-hover:text-gray-900">
                   <span>Convert Now</span>
                   <svg className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
