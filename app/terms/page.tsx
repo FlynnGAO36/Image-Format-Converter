@@ -48,7 +48,7 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Intellectual Property</h2>
             <p className="text-gray-600 mb-6">
-              You retain all ownership rights to images you convert using our service. The service's 
+              You retain all ownership rights to images you convert using our service. The service&apos;s 
               code, design, and branding are owned by ImageConvertLab and are protected by copyright 
               and other intellectual property laws.
             </p>
