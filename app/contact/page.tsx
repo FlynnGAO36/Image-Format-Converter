@@ -14,7 +14,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-600">
-            We'd love to hear from you
+            We&apos;d love to hear from you
           </p>
         </div>
 
@@ -22,7 +22,7 @@ export default function ContactPage() {
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Get in Touch</h2>
             <p className="text-gray-600 mb-6">
-              Have questions, feedback, or need help with ImageConvertLab? We're here to help!
+              Have questions, feedback, or need help with ImageConvertLab? We&apos;re here to help!
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Email Support</h3>

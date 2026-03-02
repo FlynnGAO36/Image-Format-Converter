@@ -81,11 +81,11 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Data Security</h2>
             <p className="text-gray-600 mb-6">
               Since all image processing happens in your browser, your files never leave your device. 
-              This client-side approach is the most secure way to handle your images - there's no risk 
+              This client-side approach is the most secure way to handle your images - there&apos;s no risk 
               of interception during upload/download because there is no upload/download.
             </p>
 
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Children's Privacy</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Children&apos;s Privacy</h2>
             <p className="text-gray-600 mb-6">
               Our service is available to users of all ages. We do not knowingly collect personal 
               information from anyone, including children.

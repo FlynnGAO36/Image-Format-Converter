@@ -22,7 +22,7 @@ export default function TermsPage() {
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-600 mb-6">
-              By accessing and using ImageConvertLab ("the Service"), you accept and agree to be bound 
+              By accessing and using ImageConvertLab (&quot;the Service&quot;), you accept and agree to be bound 
               by these Terms of Service. If you do not agree to these terms, please do not use our service.
             </p>
 
@@ -55,7 +55,7 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Disclaimer of Warranties</h2>
             <p className="text-gray-600 mb-6">
-              The service is provided "as is" and "as available" without warranties of any kind, either 
+              The service is provided &quot;as is&quot; and &quot;as available&quot; without warranties of any kind, either 
               express or implied, including but not limited to warranties of merchantability, fitness 
               for a particular purpose, or non-infringement. We do not guarantee that the service will 
               be uninterrupted, timely, secure, or error-free.
@@ -99,7 +99,7 @@ export default function TermsPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">10. Changes to Terms</h2>
             <p className="text-gray-600 mb-6">
               We reserve the right to modify these Terms of Service at any time. We will notify users 
-              of any material changes by posting the new terms on this page and updating the "Last Updated" 
+              of any material changes by posting the new terms on this page and updating the &quot;Last Updated&quot; 
               date. Your continued use of the service after such changes constitutes acceptance of the 
               new terms.
             </p>
