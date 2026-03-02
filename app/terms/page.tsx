@@ -109,19 +109,6 @@ export default function TermsPage() {
               These Terms shall be governed by and construed in accordance with applicable laws, without 
               regard to conflict of law provisions.
             </p>
-
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">12. Contact Information</h2>
-            <p className="text-gray-600 mb-4">
-              If you have any questions about these Terms of Service, please contact us at:
-            </p>
-            <p className="mb-6">
-              <a 
-                href="mailto:legal@imageconvertlab.com" 
-                className="text-primary-600 hover:text-primary-700 font-medium"
-              >
-                legal@imageconvertlab.com
-              </a>
-            </p>
           </div>
         </div>
 

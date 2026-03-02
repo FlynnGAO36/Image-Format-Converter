@@ -96,19 +96,6 @@ export default function PrivacyPolicyPage() {
               We may update this Privacy Policy from time to time. We will notify users of any material 
               changes by posting the new policy on this page and updating the "Last Updated" date.
             </p>
-
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Contact Us</h2>
-            <p className="text-gray-600 mb-4">
-              If you have questions about this Privacy Policy, please contact us at:
-            </p>
-            <p className="mb-6">
-              <a 
-                href="mailto:privacy@imageconvertlab.com" 
-                className="text-primary-600 hover:text-primary-700 font-medium"
-              >
-                privacy@imageconvertlab.com
-              </a>
-            </p>
           </div>
         </div>
 

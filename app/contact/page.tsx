@@ -69,7 +69,7 @@ export default function ContactPage() {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-8">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">📧 Response Time</h3>
               <p className="text-gray-600 text-sm">
-                We typically respond to all inquiries within 24-48 hours during business days.
+                We typically respond to all inquiries within 24-48 years during business days.
               </p>
             </div>
           </div>
